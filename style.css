@@ -1,0 +1,41 @@
+.link 
+{
+    font-size: 50px;
+    color:darkgreen;
+    text-decoration: none;
+
+}
+
+.main
+{
+    position: relative;
+    height: 800px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.7)), url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* цвет картинки, альфа канал-это прозрачность, мы делаем так,чтобы затемнялась только картинка */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image
+{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./2.bmp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.vis
+{
+    display: block;
+}
